@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Button, Icon, Label, Form, Grid, Segment, Divider, Image } from 'semantic-ui-react';
+import { Button, Icon, Label, Form, Grid, Segment, Divider, Image, Flag } from 'semantic-ui-react';
 import './App.css';
 
 function App() {
@@ -80,33 +80,51 @@ function App() {
             <Divider vertical>Or</Divider>
         </Segment>
 
+        <Segment>
+          <Flag name='ng' />
+          <Flag name='ca' />
+          <Flag name='gb' />
+          <Flag name='kenya' />
+          <Flag name='morocco' />
+          <Flag name='us' />
+          <Flag name='qa' />
+          <Flag name='tr' />
+          <Flag name='sa' />
+          <Flag name='gb sct' />
+          <Flag name='fr' />
+          <Flag name='et' />
+        </Segment>
+
 
                                                 {/* Importing Image  */}
         <Grid columns={3} divided>
-    <Grid.Row>
-      <Grid.Column>
-        <Image src='/src/Image/1091101-download-free-3d-high-resolution-wallpapers-2560x1600.jpg' />
-      </Grid.Column>
-      <Grid.Column>
-        <Image src='/images/wireframe/media-paragraph.png' />
-      </Grid.Column>
-      <Grid.Column>
-        <Image src='/images/wireframe/media-paragraph.png' />
-      </Grid.Column>
-    </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+              <Image src='/src/Image/1091101-download-free-3d-high-resolution-wallpapers-2560x1600.jpg' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/media-paragraph.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/media-paragraph.png' />
+            </Grid.Column>
+          </Grid.Row>
 
-    <Grid.Row>
-      <Grid.Column>
-        <Image src='/images/wireframe/media-paragraph.png' />
-      </Grid.Column>
-      <Grid.Column>
-        <Image src='/images/wireframe/media-paragraph.png' />
-      </Grid.Column>
-      <Grid.Column>
-        <Image src='/images/wireframe/media-paragraph.png' />
-      </Grid.Column>
-    </Grid.Row>
-  </Grid>
+          <Grid.Row>
+            <Grid.Column>
+              <Image src='/images/wireframe/media-paragraph.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/media-paragraph.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/media-paragraph.png' />
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+                                            {/* Trying to import image semantic */}
+
+        <Image src='/src/Image/download.jpg' size='small' />
 
       </header>
     </div>
