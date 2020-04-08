@@ -28,7 +28,7 @@ function App() {
           Download
         </Button>
 
-                                {/* importing label and icons */}
+                                {/* importing Label and Icons Semantics */}
 
         <Button as='div' labelPosition='right'>
           <Button color='red'>
@@ -49,7 +49,7 @@ function App() {
           </Label>
         </Button>
 
-                                {/* importing Form, Grid and Segment, Divider */}
+                                {/* importing Form, Grid and Segment, Divider Semantics */}
 
         <Segment placeholder>
           <Grid columns={2} relaxed='very' stackable>
@@ -81,10 +81,11 @@ function App() {
         </Segment>
 
 
+                                                {/* Importing Image  */}
         <Grid columns={3} divided>
     <Grid.Row>
       <Grid.Column>
-        <Image src='/images/wireframe/media-paragraph.png' />
+        <Image src='/src/Image/1091101-download-free-3d-high-resolution-wallpapers-2560x1600.jpg' />
       </Grid.Column>
       <Grid.Column>
         <Image src='/images/wireframe/media-paragraph.png' />
@@ -96,7 +97,7 @@ function App() {
 
     <Grid.Row>
       <Grid.Column>
-        <Image src='/src/Image/1091101-download-free-3d-high-resolution-wallpapers-2560x1600.jpg' />
+        <Image src='/images/wireframe/media-paragraph.png' />
       </Grid.Column>
       <Grid.Column>
         <Image src='/images/wireframe/media-paragraph.png' />
